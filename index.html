@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style>
+      @font-face {
+        font-family: "Helvetica";
+        src: url("HelveticaNowDisplay-Regular.ttf");
+      }
+      html,
+      body {
+        font-family: "Helvetica", sans-serif;
+        box-sizing: border-box;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="w-full py-6">
+      <nav class="flex px-[10rem] justify-between items-center">
+        <h1 class="font-bold text-medium">Portfolio</h1>
+        <div class="links flex gap-10">
+          <a class="font-semibold text-medium" href="#">Home</a>
+          <a class="font-semibold text-medium opacity-30" href="#">Social</a>
+          <a class="font-semibold text-medium opacity-30" href="#">Projects</a>
+          <a class="font-semibold text-medium opacity-30" href="#">Contact</a>
+        </div>
+      </nav>
+
+      <section class="w-full px-[10rem] mt-6 flex justify-between items-end">
+        <div class="leftheadings">
+          <h6 class="text-xl font-semibold -mb-2">Hello I am,</h6>
+          <h1 class="text-7xl -ml-1 leading-none font-semibold tracking-tight">
+            Kailas.
+          </h1>
+        </div>
+        <div class="rightheadings flex justify-center items-center gap-4 mt-20">
+          <h4 class="timing font-semibold">[5:51 PM]</h4>
+          <div class="w-20 h-[2px] bg-black"></div>
+          <h3 class="font-semibold">Creative Front End Developer</h3>
+        </div>
+      </section>
+
+      <section class="picture px-[10rem] w-full h-[480px] mt-5">
+        <img
+          class="w-full h-full object-cover object-top"
+          src="https://wallpapercave.com/wp/wp6105894.jpg"
+          alt=""
+        />
+      </section>
+
+      <section class="about full px-[10rem] mt-50 flex justify-center">
+        <div class="relative w-2/3 flex-col justify-center items-center">
+          <h2 class="text-center text-3xl font-bold mb-5">
+            [ I design & build experiences ]
+          </h2>
+          <p class="text-center font-normal">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ut
+            autem quisquam recusandae voluptates nemo officia maiores deleniti
+            cumque tempore distinctio quas ipsa obcaecati modi corrupti, enim
+            quam illum cupiditate aliquid placeat nesciunt dolor delectus
+            quidem. Debitis repellat eaque magni!
+          </p>
+          <div class="floatingIcons">
+            <img
+              class="w-18 absolute -bottom-20 right-25 rounded-md -rotate-20"
+              src="./assets/js.png"
+              alt=""
+            />
+            <img
+              class="w-20 absolute right-0 -top-10 rotate-15"
+              src="./assets/htmlblack.png"
+              alt=""
+            />
+            <img
+              class="w-118 absolute -top-38 -bottom-70 opacity-10 left-45"
+              src="./assets/code purple.png"
+              alt=""
+            />
+            <img
+              class="w-20 absolute -top-15 -rotate-20 left-20"
+              src="./assets/vsc0de.png"
+              alt=""
+            />
+            <img
+              class="w-20 absolute rotate-45 bottom 0 left-40"
+              src="./assets/Tailwind CSS.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="theBeginning relative px-[10rem] mt-70 w-full flex-col">
+        <div class="flex absolute sticky top-0 items-center gap-7 bg-white">
+          <h2 class="text-5xl font-semibold">2017.</h2>
+          <div class="w-32 h-px bg-black"></div>
+          <h2 class="text-5xl font-semibold opacity-30">The Beginning</h2>
+        </div>
+        <div class="flex w-full gap-10 mt-10 flex justify-between">
+          <div class="flex flex-col items-center gap-10">
+            <div class="bg-zinc-300 w-88 h-120"></div>
+            <div class="bg-zinc-300 w-88 h-140"></div>
+          </div>
+          <div class="flex flex-col items-center gap-10 mt-30">
+            <div class="bg-zinc-300 w-88 h-140"></div>
+            <div class="bg-zinc-300 w-88 h-88"></div>
+          </div>
+          <div class="flex flex-col items-center gap-10 mt-15">
+            <div class="bg-zinc-300 w-88 h-88"></div>
+            <div class="bg-zinc-300 w-88 h-120"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="escalation relative px-[10rem] mt-50 w-full flex-col">
+        <div class="flex absolute sticky top-0 items-center gap-7 bg-white">
+          <h2 class="text-5xl font-semibold">2018.</h2>
+          <div class="w-32 h-px bg-black"></div>
+          <h2 class="text-5xl font-semibold opacity-30">Escalation</h2>
+        </div>
+        <div class="flex w-full gap-10 mt-10 flex justify-between">
+          <div class="flex flex-col items-center gap-10">
+            <div class="bg-zinc-300 w-88 h-120"></div>
+            <div class="bg-zinc-300 w-88 h-140"></div>
+          </div>
+          <div class="flex flex-col items-center gap-10 mt-30">
+            <div class="bg-zinc-300 w-88 h-140"></div>
+            <div class="bg-zinc-300 w-88 h-88"></div>
+          </div>
+          <div class="flex flex-col items-center gap-10 mt-15">
+            <div class="bg-zinc-300 w-88 h-88"></div>
+            <div class="bg-zinc-300 w-88 h-120"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="w-full mt-50 relative">
+        <img class="w-full h-70" src="./assets/dottedBg.png" alt="" />
+        <div
+          class="overlaytext absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+        >
+          <h2 class="text-center text-3xl font-semibold mb-5">I am great at</h2>
+          <img
+            class="object-cover object-position-top w-120"
+            src="https://upload.wikimedia.org/wikipedia/commons/9/94/MERN-logo.png?20200328184328"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <section class="testimonials w-full px-[10rem] mt-50 flex-col">
+        <h3 class="text-4xl font-semibold -mb-8">Client</h3>
+        <div class="w-full flex items-center gap-10 leading-none">
+          <h1 class="text-8xl font-bold leading-none">Testimonials</h1>
+          <img class="w-[14%]" src="./assets/rightarrow.png" alt="" />
+          <h1 class="text-8xl font-bold leading-none">works</h1>
+        </div>
+      </section>
+
+      <section class="work w-full px-[10rem] mt-15 ">
+        <div>
+          <h1 class="text-3xl font-bold">50th ODI Century</h1>
+        </div>
+        <div class="flex gap-5 items-center">
+          <h2 class="text-xl"><i>2023</i></h2>
+          <img class="w-[4%]" src="./assets/rightarrow.png" alt="" />
+          <h2 class="text-xl font-semibold">Mumbai</h2>
+        </div>
+        <div class="w-full flex justify-center  h-[75vh]">
+          <img class="w-[99%] h-full object-cover object-top" src="https://pbs.twimg.com/media/F_JMxZBaoAAWigT.jpg:large" alt="">
+        </div>
+      </section>
+
+      <section class="work2 w-full px-[10rem] mt-15 flex justify-between">
+        <div>
+          <div>
+            <h1 class="text-3xl font-bold">82<sup>* </sup> vs  Pakistan</h1>
+          </div>
+          <div class="flex gap-5 items-center mb-3">
+            <h2 class="text-xl"><i>2022</i></h2>
+            <img class="w-[4%]" src="./assets/rightarrow.png" alt="" />
+            <h2 class="text-xl font-semibold">Melbourne</h2>
+          </div>
+          <div class="w-full  h-[55vh]">
+            <img class="w-[140%] h-full object-cover object-bottom" src="https://i.pinimg.com/736x/7f/3a/17/7f3a17ca22a4bfe42b8738fb7d11cc08.jpg" alt="">
+          </div>
+        </div>
+        <div class="mt-29">
+          <div>
+            <h1 class="text-3xl font-bold">ODI World Cup</h1>
+          </div>
+          <div class="flex gap-5 items-center">
+            <h2 class="text-xl"><i>2023</i></h2>
+            <img class="w-[4%]" src="./assets/rightarrow.png" alt="" />
+            <h2 class="text-xl font-semibold">India</h2>
+          </div>
+          <div class="w-full  h-[65vh]">
+            <img class="w-[100%] h-full object-cover object-bottom" src="https://etvbharatimages.akamaized.net/etvbharat/prod-images/13-11-2023/1200-675-20010099-thumbnail-16x9-img.jpg" alt="">
+          </div>
+        </div>
+      </section>
+
+      <section class="footer flex justify-between px-[10rem] mt-50">
+        <h6><span class="font-semibold">Kailas</span> Mahadev Satpute</h6>
+        <h5 class="dt2 font-semibold">10 Feb. 2025 [5.51 PM]</h5>
+      </section>
+    </main>
+
+    <script>
+     function changeTime() {
+    var dt = new Date();
+    var hours = (dt.getHours() % 12) || 12; // Convert 0 to 12 for 12-hour format
+    var minutes = dt.getMinutes().toString().padStart(2, '0');
+    var formattedTime = "[" + hours.toString().padStart(2, '0') + ":" + minutes + "] " + (dt.getHours() >= 12 ? "PM" : "AM");
+    document.querySelector('.timing').innerHTML = formattedTime;
+}
+
+function changeDateTime() {
+    var dt2 = new Date();
+    var hours = (dt2.getHours() % 12) || 12; // Convert 0 to 12 for 12-hour format
+    var minutes = dt2.getMinutes().toString().padStart(2, '0');
+    var str = dt2.getDate() + " / " + (dt2.getMonth() + 1) + " / " + dt2.getFullYear() + " [" + hours.toString().padStart(2, '0') + ":" + minutes + "]";
+    str += dt2.getHours() >= 12 ? " PM" : " AM";
+    document.querySelector('.dt2').textContent = str;
+}
+
+setInterval(function () {
+    changeTime();
+    changeDateTime();
+}, 1000);
+
+    </script>
+  </body>
+</html>
